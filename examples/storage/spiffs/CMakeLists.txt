@@ -4,4 +4,4 @@ cmake_minimum_required(VERSION 3.5)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(spiffs)
-spiffs_create_partition_image(spiffs data)
+#spiffs_create_partition_image(www data FLASH_IN_PROJECT) - Info here how to move maybe later: https://www.esp32.com/viewtopic.php?t=21955
